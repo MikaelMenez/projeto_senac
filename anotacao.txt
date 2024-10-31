@@ -1,0 +1,14 @@
+#criar variável
+const[nome,setnome]=useState()
+
+#atribuição
+setnome("luciano") 
+
+#para criar um evento que ocorrerá sempre que usarem usestate
+useEffect(função,[lista com variáveis que ele escuta])
+
+#o contexto determina que certas varáveis alcancem um escopo maior
+#criar contexto
+const contexto = createContext()
+
+
